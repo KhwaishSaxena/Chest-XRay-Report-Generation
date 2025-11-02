@@ -3,11 +3,10 @@ import streamlit as st
 st.title("Chest X-Ray Report Generation Using Deep Learning")
 st.write("""
          ## Project Overview
-
-            - This project — Chest X-Ray Report Generation Using Deep Learning — aims to automatically generate radiology reports from chest X-ray images.
-            - It uses a CNN-LSTM model with an Attention mechanism, where: The CNN (encoder) extracts image features.
-            - The LSTM with attention (decoder) generates descriptive text based on those features.
-            - The system helps radiologists and healthcare professionals by providing quick, consistent, and AI-assisted 
+             This project — Chest X-Ray Report Generation Using Deep Learning — aims to automatically generate radiology reports from chest X-ray images.
+             It uses a CNN-LSTM model with an Attention mechanism, where: The CNN (encoder) extracts image features.
+             The LSTM with attention (decoder) generates descriptive text based on those features.
+             The system helps radiologists and healthcare professionals by providing quick, consistent, and AI-assisted 
             medical report generation.
             
         ---
@@ -35,7 +34,8 @@ st.write("""
         
         *Built using Deep Learning and Streamlit for Real-World Application.*
         
-    ---
+         ---
 
         """)
+
 
